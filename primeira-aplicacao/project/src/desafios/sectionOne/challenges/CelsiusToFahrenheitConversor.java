@@ -1,4 +1,4 @@
-package desafios.sectionOne;
+package desafios.sectionOne.challenges;
 
 public class CelsiusToFahrenheitConversor {
 

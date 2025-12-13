@@ -1,4 +1,4 @@
-package desafios.sectionOne;
+package desafios.sectionOne.classes;
 
 public class Conditionals {
 
