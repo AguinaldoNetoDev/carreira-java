@@ -1,10 +1,10 @@
 public class Movie {
-    String name;
-    int releaseYear;
-    boolean isIncludedInPlan;
-    int totalEvaluations;
-    double totalRating;
-    int durationInMinutes;
+    private String name;
+    private int releaseYear;
+    private boolean isIncludedInPlan;
+    private int totalEvaluations;
+    private double totalRating;
+    private int durationInMinutes;
 
     void showTechnicalSpecificationsPrint() {
         System.out.println("Movie name: " + name);
@@ -23,5 +23,13 @@ public class Movie {
 
     double getAverageRatings() {
         return totalRating / totalEvaluations;
+    }
+
+    public void setTotalRating(double totalRating) {
+        this.totalRating = totalRating;
+    }
+
+    public double getTotalRating() {
+        return totalRating;
     }
 }
